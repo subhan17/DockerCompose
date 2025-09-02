@@ -1,0 +1,6 @@
+version: "3"
+services:
+  cubes:
+    image: mairasubhan/getcubes
+    environment:
+    - Number=6

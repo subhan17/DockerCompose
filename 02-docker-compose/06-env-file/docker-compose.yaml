@@ -1,0 +1,6 @@
+services:
+  cubes:
+    image: mairasubhan/getcubes
+    environment:
+    - Number=${NUMBER}
+    

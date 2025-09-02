@@ -1,0 +1,7 @@
+services:
+  cubes:
+    image: mairasubhan/getcubes
+    environment:
+    # - Number=${NUM}
+    # - Number=${NUM:-7}  giving default value 7
+    - Number
